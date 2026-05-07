@@ -6,7 +6,7 @@ const rotateMsg = document.getElementById("rotateMsg");
 // IMÁGENES
 // --------------------
 const bg = new Image();
-bg.src = "img/fondo.png";
+bg.src = "fondo.png";
 
 let bgReady = false;
 
@@ -15,16 +15,16 @@ bg.onload = () => {
 };
 
 const playerImg = new Image();
-playerImg.src = "img/player.png";
+playerImg.src = "player.png";
 
 const heartImg = new Image();
-heartImg.src = "img/corazon.png";
+heartImg.src = "corazon.png";
 
 const scoreImg = new Image();
-scoreImg.src = "img/score.png";
+scoreImg.src = "score.png";
 
 const bestImg = new Image();
-bestImg.src = "img/trophy.png";
+bestImg.src = "trophy.png";
 
 // --------------------
 // HIGH SCORE
@@ -37,21 +37,21 @@ let highScore =
 // --------------------
 const foodTypes = [
 
-  { type: "burger", src: "img/burger.png", points: 10 },
+  { type: "burger", src: "burger.png", points: 10 },
 
-  { type: "pizza", src: "img/pizza.png", points: 6 },
+  { type: "pizza", src: "pizza.png", points: 6 },
 
-  { type: "fries", src: "img/fries.png", points: 8 },
+  { type: "fries", src: "fries.png", points: 8 },
 
-  { type: "broccoli", src: "img/broccoli.png", damage: 1 },
+  { type: "broccoli", src: "broccoli.png", damage: 1 },
 
-  { type: "carrot", src: "img/carrot.png", minus: 100 },
+  { type: "carrot", src: "carrot.png", minus: 50 },
 
-  { type: "poison", src: "img/poison.png", kill: true },
+  { type: "poison", src: "poison.png", kill: true },
 
-  { type: "heart", src: "img/corazon.png", heal: 1 },
+  { type: "heart", src: "corazon.png", heal: 1 },
 
-  { type: "bacon", src: "img/bacon.png" }
+  { type: "bacon", src: "bacon.png" }
 
 ];
 
